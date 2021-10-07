@@ -9,9 +9,12 @@ pause
 color ec
 echo loading..
 echo loading completed. Ready to launch?
+pause
 echo click enter...
 
 pause
-:AD
-start http://www.google.com;]
-goto AD
+:anand
+echo you are dead
+start localhost;]
+color 00
+goto anand
